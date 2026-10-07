@@ -14,7 +14,7 @@ const REFS = {
   13: { t: "Using vegetable puree as a fat substitute in cakes (2016). International Journal of Nutrition and Food Sciences 5(4), 284.", u: "https://doi.org/10.11648/j.ijnfs.20160504.18" },
   14: { t: "Colla dkk. Fat replacers in baked food products. Foods (ulasan).", u: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6306729/" },
   9: { t: "Wekwete dkk. (2008). Effects of avocado fruit puree and Oatrim as fat replacers on the physical, textural and sensory properties of oatmeal cookies. Journal of Food Quality.", u: "https://doi.org/10.1111/j.1745-4557.2008.00191.x" },
-  11: { t: "Consumer acceptability of chocolate chip cookies using applesauce as a fat (butter) substitute (2013). Emirates Journal of Food and Agriculture 25(3), 159-168.", u: "https://doi.org/10.9755/ejfa.v25i3.10828" },
+  11: { t: "Selai lembaran kombinasi apel (Malus sylvestris (L.) Mill.) dan teh hijau (Camellia sinensis L.) sebagai pangan fungsional (2020). AcTion Aceh Nutrition Journal 5(1), 87.", u: "https://doi.org/10.30867/action.v5i1.267" },
   12: { t: "Effects of fat replacing with eggplant puree on characteristics of chocolate spread. MOJ Food Processing & Technology.", u: "https://medcraveonline.com/MOJFPT/effects-of-fat-replacing-with-eggplant-puree-on-characteristics-of-chocolate-spread.html" },
 };
 
