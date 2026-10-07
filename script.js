@@ -11,7 +11,11 @@ const REFS = {
   7: { t: "Avocado as a baking fat substitute in cakes. Disertasi, Makerere University.", u: "https://dissertations.mak.ac.ug/handle/20.500.12281/21880" },
   8: { t: "Marangoni dkk. (2025). Plant protein–fat interactions in plant-based cheese analogs. Physics of Fluids. (lengkapi sitasi dari halaman jurnal)" },
   10: { t: "Plant-based cheeses: a systematic review of sensory evaluation studies and strategies to increase consumer acceptance (2021). Foods 10(4), 725.", u: "https://doi.org/10.3390/foods10040725" },
-  9: { t: "Studi saus apel, pasta kacang hijau, dan puree pepaya sebagai pengganti lemak (judul ada pada daftar pustaka Sains Malaysiana 2016). Cari artikel aslinya sebelum dikutip." },
+  13: { t: "Using vegetable puree as a fat substitute in cakes (2016). International Journal of Nutrition and Food Sciences 5(4), 284.", u: "https://doi.org/10.11648/j.ijnfs.20160504.18" },
+  14: { t: "Colla dkk. Fat replacers in baked food products. Foods (ulasan).", u: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6306729/" },
+  9: { t: "Wekwete dkk. (2008). Effects of avocado fruit puree and Oatrim as fat replacers on the physical, textural and sensory properties of oatmeal cookies. Journal of Food Quality.", u: "https://doi.org/10.1111/j.1745-4557.2008.00191.x" },
+  11: { t: "Consumer acceptability of chocolate chip cookies using applesauce as a fat (butter) substitute (2013). Emirates Journal of Food and Agriculture 25(3), 159-168.", u: "https://doi.org/10.9755/ejfa.v25i3.10828" },
+  12: { t: "Effects of fat replacing with eggplant puree on characteristics of chocolate spread. MOJ Food Processing & Technology.", u: "https://medcraveonline.com/MOJFPT/effects-of-fat-replacing-with-eggplant-puree-on-characteristics-of-chocolate-spread.html" },
 };
 
 const GROUPS = {
@@ -27,8 +31,8 @@ const data = {
   "Susu Kedelai":{ group: "Susu Cair", category: "Susu Nabati", subs: { "Susu Hemp": S(78,74,72,[1]), "Susu Kacang Tanah": S(80,72,80,[1]) } },
   "Susu Oat":    { group: "Susu Cair", category: "Susu Nabati", subs: { "Susu Hazelnut": S(80,70,85,[1]), "Susu Wijen": S(76,72,74,[1]) } },
   "Susu Almond": { group: "Susu Cair", category: "Susu Nabati", subs: { "Susu Kenari": S(79,74,80,[1]), "Susu Tiger Nut": S(75,68,82,[1]) } },
-  "Mentega":     { group: "Lemak Padat", category: "Lemak Hewani", subs: { "Puree Alpukat": S(78,84,70,[4,7]), "Pasta Kacang Hijau": S(70,78,68,[9]) } },
-  "Margarin":    { group: "Lemak Padat", category: "Lemak Nabati", subs: { "Saus Apel": S(72,80,68,[9]), "Puree Pepaya": S(70,78,66,[9]) } },
+  "Mentega":     { group: "Lemak Padat", category: "Lemak Hewani", subs: { "Puree Alpukat": S(78,84,70,[4,9,7]), "Pasta Kacang Hijau": S(70,78,68,[9]) } },
+  "Margarin":    { group: "Lemak Padat", category: "Lemak Nabati", subs: { "Saus Apel": S(72,80,68,[11,14]), "Puree Terong": S(70,78,66,[13,12]) } },
   "Keju Cheddar":{ group: "Keju", category: "Keju Hewani", subs: { "Keju Mete": S(74,72,84,[6,5]), "Keju Protein Kacang Polong": S(82,70,78,[5,8]) } },
   "Keju Vegan":  { group: "Keju", category: "Keju Nabati", subs: { "Keju Tahu Fermentasi": S(70,76,80,[10]), "Keju Santan Kelapa": S(72,62,78,[5,6]) } },
 };
