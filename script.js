@@ -1,4 +1,4 @@
-/* ===== DATA =====
+/* ==== DATA ====
    Bahan sumber (dropdown) -> bahan pengganti BARU. Pengganti tidak ada di `data`,
    jadi relasi tidak pernah berputar (A->B lalu B->A). Struktur = DAG di atas rooted tree. */
 const REFS = {
