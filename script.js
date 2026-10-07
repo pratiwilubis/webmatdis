@@ -7,9 +7,10 @@ const REFS = {
   3: { t: "Nutritional assessment of plant-based beverages in comparison to bovine milk (2022). Frontiers in Nutrition.", u: "https://doi.org/10.3389/fnut.2022.957486" },
   4: { t: "Physical properties and microstructure of butter cake added with Persea americana puree (2016). Sains Malaysiana 45(7).", u: "https://www.ukm.my/jsm/english_journals/vol45num7_2016/vol45num7_2016pg1105-1111.html" },
   5: { t: "Plant-based cheese analogs: structure, texture, and functionality (2025). Critical Reviews in Food Science and Nutrition.", u: "https://research.ucc.ie/en/publications/plant-based-cheese-analogs-structure-texture-and-functionality/" },
-  6: { t: "Overview of Plant-based Cheese Products. Food Research Institute, UW-Madison (2025).", u: "https://fri.wisc.edu/files/Briefs_File/2025-08-19_1636_Overview of Plant based Cheese Products.pdf" },
+  6: { t: "Craig, Mangels & Brothers (2022). Nutritional profiles of non-dairy plant-based cheese alternatives. Nutrients.", u: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8952881/" },
   7: { t: "Avocado as a baking fat substitute in cakes. Disertasi, Makerere University.", u: "https://dissertations.mak.ac.ug/handle/20.500.12281/21880" },
   8: { t: "Marangoni dkk. (2025). Plant protein–fat interactions in plant-based cheese analogs. Physics of Fluids. (lengkapi sitasi dari halaman jurnal)" },
+  10: { t: "Plant-based cheeses: a systematic review of sensory evaluation studies and strategies to increase consumer acceptance (2021). Foods 10(4), 725.", u: "https://doi.org/10.3390/foods10040725" },
   9: { t: "Studi saus apel, pasta kacang hijau, dan puree pepaya sebagai pengganti lemak (judul ada pada daftar pustaka Sains Malaysiana 2016). Cari artikel aslinya sebelum dikutip." },
 };
 
@@ -28,8 +29,8 @@ const data = {
   "Susu Almond": { group: "Susu Cair", category: "Susu Nabati", subs: { "Susu Kenari": S(79,74,80,[1]), "Susu Tiger Nut": S(75,68,82,[1]) } },
   "Mentega":     { group: "Lemak Padat", category: "Lemak Hewani", subs: { "Puree Alpukat": S(78,84,70,[4,7]), "Pasta Kacang Hijau": S(70,78,68,[9]) } },
   "Margarin":    { group: "Lemak Padat", category: "Lemak Nabati", subs: { "Saus Apel": S(72,80,68,[9]), "Puree Pepaya": S(70,78,66,[9]) } },
-  "Keju Cheddar":{ group: "Keju", category: "Keju Hewani", subs: { "Keju Mete": S(74,72,84,[6]), "Keju Protein Kacang Polong": S(82,70,78,[5,8]) } },
-  "Keju Vegan":  { group: "Keju", category: "Keju Nabati", subs: { "Keju Tahu Fermentasi": S(70,76,80,[6]), "Keju Santan Kelapa": S(72,62,78,[5,6]) } },
+  "Keju Cheddar":{ group: "Keju", category: "Keju Hewani", subs: { "Keju Mete": S(74,72,84,[6,5]), "Keju Protein Kacang Polong": S(82,70,78,[5,8]) } },
+  "Keju Vegan":  { group: "Keju", category: "Keju Nabati", subs: { "Keju Tahu Fermentasi": S(70,76,80,[10]), "Keju Santan Kelapa": S(72,62,78,[5,6]) } },
 };
 
 /* ===== ELEMEN ===== */
